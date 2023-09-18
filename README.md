@@ -14,7 +14,7 @@ cpc.color_palette(cat='macchiato')
 cpc.color_palette(cat='mocha')  # default
 
 cpc.gray_palette(cat='latte', n=5)
-cpc.gray_palette(cat='freppe', n=5)
+cpc.gray_palette(cat='frappe', n=5)
 cpc.gray_palette(cat='macchiato', n=5)
 cpc.gray_palette(cat='mocha', n=5)
 cpc.gray_palette(cat='mocha', n=2)  # default
