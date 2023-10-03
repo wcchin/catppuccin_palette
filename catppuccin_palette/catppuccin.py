@@ -110,6 +110,13 @@ def catppuccin_diverging(cat, clr_set=None, clr1=None, clr2=None, clr3=None):
                 clr2 = 'base'
             else:
                 clr2 = 'text'
+        elif clr_set==3:
+            clr1 = 'lavender'
+            clr3 = 'rosewater'
+            if cat=='latte':
+                clr2 = 'base'
+            else:
+                clr2 = 'text'
         else:
             clr1 = 'blue'
             clr3 = 'red'
