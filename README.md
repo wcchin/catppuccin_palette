@@ -20,3 +20,5 @@ cpc.gray_palette(cat='mocha', n=5)
 cpc.gray_palette(cat='mocha', n=2)  # default
 
 ```
+
+see test.ipynb notebook for more functions, e.g., diverging, sequential, named sequential.
