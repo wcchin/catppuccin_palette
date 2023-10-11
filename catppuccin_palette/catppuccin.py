@@ -257,7 +257,7 @@ def get_catppuccin_named_sequential(name, cmap=False, n=10):
         colors =  ['base', 'pink', 'mauve', 'text']
         n1 = 1
         n2 = -2
-    elif name=='YrOr':
+    elif name=='YlOr':
         cat = 'frappe'
         colors = ['text', 'yellow', 'peach', 'base']
         n1 = 1
@@ -284,7 +284,7 @@ def get_catppuccin_named_sequential(name, cmap=False, n=10):
         n2 = -1
     else:
         print('Color map name not found, please check')
-        cmapnames = ['Oranges', 'Yellows', 'Blues', 'Reds', 'Maroons', 'Flamingos', 'Greens', 'PuBu', 'Purples', 'YrOr', 'Rosewaters', 'YlOrRd', 'YlGnBu', 'YlGn']
+        cmapnames = ['Oranges', 'Yellows', 'Blues', 'Reds', 'Maroons', 'Flamingos', 'Greens', 'PuBu', 'Purples', 'YlOr', 'Rosewaters', 'YlOrRd', 'YlGnBu', 'YlGn']
         print('Current available named colormap:', ', '.join(cmapnames))
         print('Returning None')
         return None
